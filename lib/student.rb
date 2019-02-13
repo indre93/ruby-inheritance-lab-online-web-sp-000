@@ -6,7 +6,6 @@ class Student < User
 
   def learn(teach)
     self.knowledge << teach
-
   end
 
   def knowledge
